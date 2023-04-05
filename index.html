@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Weather App</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/5a81cc2ea8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>WEATHER APP</h1>
+    <div class="container">
+      <div class="row">
+        <!-- SEARCH AREA -->
+        <div class="col-3">
+          <h3 id="search-city">Search for a City:</h3>
+          <div>
+            <form>
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="search-input"
+                  aria-describedby="searchinput"
+                />
+              </div>
+              <button
+                type="submit"
+                class="btn btn-primary btn-lg fas fa-search-location"
+                id="search-button"
+              ></button>
+            </form>
+          </div>
+          <br />
+          <table class="table table-bordered table-hover">
+            <thead></thead>
+            <tbody id="saved-cities">
+                <!-- <th scope="row">TESTING</th>
+                <tr></tr>
+                <th scope="row">TESTING2</th> -->
+              <!-- <tr>
+                <th scope="row">Philadelphia</th>
+              </tr>
+              <tr>
+                <th scope="row">Atlanta</th>
+              </tr>
+              <tr>
+                <th scope="row">Calgary</th>
+              </tr> -->
+            </tbody>
+             </tbody>
+          </table>
+        </div>
