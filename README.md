@@ -31,8 +31,8 @@ The dashboard will show the current weather data, including temperature, humidit
 Scroll down to view the 5-day weather forecast for the selected city.
 
 Live Demo
-A live demo of the Weather Dashboard is available at https://example.com/weather-dashboard.
-
+A live demo of the Weather Dashboard is available at [
+](http://127.0.0.1:5500/weather-app/Assets/index.html)
 Installation
 To run the Weather Dashboard locally, follow these steps:
 
