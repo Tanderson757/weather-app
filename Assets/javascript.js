@@ -1,4 +1,3 @@
-
 // Variable for Date
 var d = new Date();
 var month = d.getMonth() + 1;

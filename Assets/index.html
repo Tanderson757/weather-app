@@ -3,10 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Weather App</title>
+    <title>Weather Dashboard</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -25,7 +24,8 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>WEATHER APP</h1>
+    <h1>WEATHER DASHBOARD</h1>
+
     <div class="container">
       <div class="row">
         <!-- SEARCH AREA -->
@@ -52,19 +52,36 @@
           <table class="table table-bordered table-hover">
             <thead></thead>
             <tbody id="saved-cities">
-                <!-- <th scope="row">TESTING</th>
-                <tr></tr>
-                <th scope="row">TESTING2</th> -->
-              <!-- <tr>
-                <th scope="row">Philadelphia</th>
-              </tr>
-              <tr>
-                <th scope="row">Atlanta</th>
-              </tr>
-              <tr>
-                <th scope="row">Calgary</th>
-              </tr> -->
-            </tbody>
              </tbody>
           </table>
         </div>
+
+        <!-- CURRENT CITY INFO -->
+        <div class="col-9">
+          <div class="row">
+            <div>
+              <h2 id="current-city">Chesterfield,VA</h2>
+              <p id="current-temp">Temperature:</p>
+              <p id="current-humidity">Humidity:</p>
+              <p id="current-wind">Wind Speed:</p>
+              <p id="current-UV">UV Index:</p>
+            </div>
+          </div>
+          <div class="row" id="forecast-area">
+            <h2 id="forecast-header">5-Day Forecast</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <script src="javascript.js"></script>
+  </body>
+  <footer>
+    Made by Terrell Anderson
+  </footer>
+</html>
